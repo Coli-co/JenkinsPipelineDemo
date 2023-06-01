@@ -11,6 +11,7 @@ pipeline {
          stage('Test') {
             steps {
                 echo 'Testing the application...'
+                echo 'GitHub webhook test'
             }
         }
         stage('Deploy') {
